@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|solutionrelative:practica_1\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|d:\\progra avanzada web\\progra-avanzada\\practica_1\\practica_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|solutionrelative:practica_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|d:\\progra avanzada web\\progra-avanzada\\practica_1\\practica_1\\wwwroot\\css\\theme-pink.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|solutionrelative:practica_1\\wwwroot\\css\\theme-pink.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|d:\\progra avanzada web\\progra-avanzada\\practica_1\\practica_1\\wwwroot\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|solutionrelative:practica_1\\wwwroot\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|d:\\progra avanzada web\\progra-avanzada\\practica_1\\practica_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|solutionrelative:practica_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|d:\\progra avanzada web\\progra-avanzada\\practica_1\\practica_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|solutionrelative:practica_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A63117BB-59D5-41CD-A4D0-E18E7FBF839E}|Practica_1\\Practica_1.csproj|d:\\progra avanzada web\\progra-avanzada\\practica_1\\practica_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,30 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "theme-pink.css",
+              "DocumentMoniker": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\wwwroot\\css\\theme-pink.css",
+              "RelativeDocumentMoniker": "Practica_1\\wwwroot\\css\\theme-pink.css",
+              "ToolTip": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\wwwroot\\css\\theme-pink.css",
+              "RelativeToolTip": "Practica_1\\wwwroot\\css\\theme-pink.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-05T16:39:44.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sb-admin-2.css",
+              "DocumentMoniker": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\wwwroot\\css\\sb-admin-2.css",
+              "RelativeDocumentMoniker": "Practica_1\\wwwroot\\css\\sb-admin-2.css",
+              "ToolTip": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\wwwroot\\css\\sb-admin-2.css",
+              "RelativeToolTip": "Practica_1\\wwwroot\\css\\sb-admin-2.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoJAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-05T16:22:54.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Practica_1\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Practica_1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoBAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-05T05:25:17.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Practica_1\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Practica_1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-05T05:15:03.428Z",
               "EditorCaption": ""
@@ -62,14 +96,14 @@
               "RelativeDocumentMoniker": "Practica_1\\Views\\Shared\\_LayoutExterno.cshtml",
               "ToolTip": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\Views\\Shared\\_LayoutExterno.cshtml",
               "RelativeToolTip": "Practica_1\\Views\\Shared\\_LayoutExterno.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-05T05:11:00.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Progra Avanzada Web\\Progra-Avanzada\\Practica_1\\Practica_1\\Program.cs",
               "RelativeDocumentMoniker": "Practica_1\\Program.cs",
@@ -77,8 +111,7 @@
               "RelativeToolTip": "Practica_1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T04:41:49.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T04:41:49.922Z"
             }
           ]
         }

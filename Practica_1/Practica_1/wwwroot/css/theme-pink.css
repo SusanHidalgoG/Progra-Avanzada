@@ -1,0 +1,145 @@
+﻿/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700&display=swap');
+
+/* Variables de color */
+:root {
+    /* Paleta rosada */
+    --pink-light: #ffb6c1;
+    --pink-medium: #ff6b8b;
+    --pink-dark: #db7093;
+    --pink-intense: #ff1493;
+    --pink-pastel: #ffd1dc;
+    --pink-lavender: #fff0f5;
+    --pink-shadow: rgba(255, 107, 139, 0.3);
+    /* Colores funcionales */
+    --primary: var(--pink-medium);
+    --secondary: var(--pink-light);
+    --light: var(--pink-lavender);
+    --dark: var(--pink-dark);
+}
+
+/* Estilos generales */
+body {
+    background: linear-gradient(135deg, var(--pink-lavender) 0%, var(--pink-pastel) 100%);
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark);
+}
+
+    /* Efecto decorativo de corazones */
+    body::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="%23ff6b8b20"><path d="M50,30 Q60,20 70,30 Q80,40 50,60 Q20,40 30,30 Q40,20 50,30"/></svg>');
+        background-size: 120px;
+        opacity: 0.2;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+/* Tarjetas */
+.card {
+    border: 1px solid var(--pink-light) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 4px 20px var(--pink-shadow) !important;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: var(--pink-lavender) !important;
+    border-bottom: 1px solid var(--pink-light) !important;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: var(--pink-medium) !important;
+    border-color: var(--pink-medium) !important;
+    border-radius: 50px !important;
+    padding: 0.5rem 1.5rem !important;
+    transition: all 0.3s ease !important;
+}
+
+    .btn-primary:hover {
+        background-color: var(--pink-dark) !important;
+        border-color: var(--pink-dark) !important;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px var(--pink-shadow) !important;
+    }
+
+/* Formularios */
+.form-control, .form-control-user {
+    border: 1px solid var(--pink-light) !important;
+    border-radius: 50px !important;
+    padding: 0.8rem 1rem !important;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus, .form-control-user:focus {
+        border-color: var(--pink-medium) !important;
+        box-shadow: 0 0 0 0.2rem rgba(255, 107, 139, 0.25) !important;
+    }
+
+/* Textos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    color: var(--pink-dark);
+}
+
+.text-primary {
+    color: var(--pink-medium) !important;
+}
+
+a {
+    color: var(--pink-medium);
+    transition: color 0.3s ease;
+}
+
+    a:hover {
+        color: var(--pink-intense);
+        text-decoration: none;
+    }
+
+/* Divisores */
+hr {
+    border-color: var(--pink-light) !important;
+    opacity: 0.5;
+}
+
+/* Fondo para la imagen de login */
+.bg-login-image {
+    background: linear-gradient(135deg, var(--pink-medium) 0%, var(--pink-dark) 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Panel derecho del login */
+.login-panel {
+    background-color: var(--pink-lavender);
+}
+
+/* Efectos especiales */
+.girly-effect {
+    position: relative;
+}
+
+    .girly-effect::before {
+        content: "♥";
+        position: absolute;
+        color: var(--pink-light);
+        font-size: 1.2rem;
+        animation: float 3s ease-in-out infinite;
+    }
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(10deg);
+    }
+}

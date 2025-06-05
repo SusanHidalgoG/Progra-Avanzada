@@ -11,34 +11,40 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #4e73df;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #e74a3b;
-  --orange: #fd7e14;
-  --yellow: #f6c23e;
-  --green: #1cc88a;
-  --teal: #20c9a6;
-  --cyan: #36b9cc;
-  --white: #fff;
-  --gray: #858796;
-  --gray-dark: #5a5c69;
-  --primary: #4e73df;
-  --secondary: #858796;
-  --success: #1cc88a;
-  --info: #36b9cc;
-  --warning: #f6c23e;
-  --danger: #e74a3b;
-  --light: #f8f9fc;
-  --dark: #5a5c69;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --pink-light: #ffb6c1; 
+    --pink-medium: #ff6b8b;
+    --pink-dark: #db7093;
+    --pink-intense: #ff1493; 
+    --pink-pastel: #ffd1dc; 
+    --pink-lavender: #fff0f5; 
+    --blue: #b5c7f0; 
+    --indigo: #d8bfd8;
+    --purple: #e6b8e6; 
+    --pink: #ff69b4; 
+    --red: #ff8c8c; 
+    --orange: #ffb347; 
+    --yellow: #ffe44d; 
+    --green: #a1e6af; 
+    --teal: #a1e6d8;
+    --cyan: #a1d8e6; 
+    --white: #fff;
+    --gray: #d8c3d8; 
+    --gray-dark: #b48fb1; 
+    --primary: var(--pink-medium);
+    --secondary: var(--pink-light); 
+    --success: var(--green);
+    --info: var(--cyan); 
+    --warning: var(--yellow); 
+    --danger: var(--pink-intense);
+    --light: var(--pink-lavender); 
+    --dark: var(--pink-dark); 
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -2356,16 +2362,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+    color: #fff;
+    background-color: var(--pink);
+    border-color: var(--pink-dark);
 }
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #2e59d9;
-  border-color: #2653d4;
-}
+    .btn-primary:hover {
+        color: #fff;
+        background-color: var(--pink-dark);
+        border-color: var(--pink-intense);
+    }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -4550,10 +4556,10 @@ input[type="button"].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: #f8f9fc;
-  border-bottom: 1px solid #e3e6f0;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff0f5;
+    border-bottom: 1px solid #ffb6c1;
 }
 
 .card-header:first-child {
@@ -9900,9 +9906,9 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
-  background-size: cover;
+    background-color: var(--pink-medium); 
+    background-image: linear-gradient(180deg, var(--pink-light) 10%, var(--pink-dark) 100%);
+    background-size: cover;
 }
 
 .bg-gradient-secondary {

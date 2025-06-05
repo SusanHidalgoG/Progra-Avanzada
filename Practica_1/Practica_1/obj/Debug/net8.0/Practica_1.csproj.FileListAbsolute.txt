@@ -28,3 +28,4 @@ D:\Progra Avanzada Web\Progra-Avanzada\Practica_1\Practica_1\obj\Debug\net8.0\Pr
 D:\Progra Avanzada Web\Progra-Avanzada\Practica_1\Practica_1\obj\Debug\net8.0\Practica_1.genruntimeconfig.cache
 D:\Progra Avanzada Web\Progra-Avanzada\Practica_1\Practica_1\obj\Debug\net8.0\ref\Practica_1.dll
 D:\Progra Avanzada Web\Progra-Avanzada\Practica_1\Practica_1\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutExterno.cshtml.rz.scp.css
+D:\Progra Avanzada Web\Progra-Avanzada\Practica_1\Practica_1\obj\Debug\net8.0\Practica_1.sourcelink.json
