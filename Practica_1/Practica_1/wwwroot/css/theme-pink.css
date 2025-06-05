@@ -1,9 +1,7 @@
-﻿/* Fuentes */
+﻿
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700&display=swap');
 
-/* Variables de color */
 :root {
-    /* Paleta rosada */
     --pink-light: #ffb6c1;
     --pink-medium: #ff6b8b;
     --pink-dark: #db7093;
@@ -11,21 +9,18 @@
     --pink-pastel: #ffd1dc;
     --pink-lavender: #fff0f5;
     --pink-shadow: rgba(255, 107, 139, 0.3);
-    /* Colores funcionales */
     --primary: var(--pink-medium);
     --secondary: var(--pink-light);
     --light: var(--pink-lavender);
     --dark: var(--pink-dark);
 }
 
-/* Estilos generales */
 body {
     background: linear-gradient(135deg, var(--pink-lavender) 0%, var(--pink-pastel) 100%);
     font-family: 'Nunito', sans-serif;
     color: var(--dark);
 }
 
-    /* Efecto decorativo de corazones */
     body::after {
         content: "";
         position: fixed;
@@ -40,7 +35,7 @@ body {
         z-index: -1;
     }
 
-/* Tarjetas */
+
 .card {
     border: 1px solid var(--pink-light) !important;
     border-radius: 15px !important;
@@ -54,7 +49,7 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-/* Botones */
+
 .btn-primary {
     background-color: var(--pink-medium) !important;
     border-color: var(--pink-medium) !important;
@@ -70,7 +65,7 @@ body {
         box-shadow: 0 4px 15px var(--pink-shadow) !important;
     }
 
-/* Formularios */
+
 .form-control, .form-control-user {
     border: 1px solid var(--pink-light) !important;
     border-radius: 50px !important;
@@ -83,7 +78,7 @@ body {
         box-shadow: 0 0 0 0.2rem rgba(255, 107, 139, 0.25) !important;
     }
 
-/* Textos */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
     color: var(--pink-dark);
@@ -103,25 +98,24 @@ a {
         text-decoration: none;
     }
 
-/* Divisores */
+
 hr {
     border-color: var(--pink-light) !important;
     opacity: 0.5;
 }
 
-/* Fondo para la imagen de login */
 .bg-login-image {
     background: linear-gradient(135deg, var(--pink-medium) 0%, var(--pink-dark) 100%);
     background-size: cover;
     background-position: center;
 }
 
-/* Panel derecho del login */
+
 .login-panel {
     background-color: var(--pink-lavender);
 }
 
-/* Efectos especiales */
+
 .girly-effect {
     position: relative;
 }

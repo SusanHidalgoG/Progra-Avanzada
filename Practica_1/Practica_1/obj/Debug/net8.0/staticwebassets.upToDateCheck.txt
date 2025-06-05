@@ -2,6 +2,7 @@ wwwroot\css\all.min.css
 wwwroot\css\sb-admin-2.css
 wwwroot\css\sb-admin-2.min.css
 wwwroot\css\site.css
+wwwroot\css\theme-pink.css
 wwwroot\favicon.ico
 wwwroot\js\jquery.easing.min.js
 wwwroot\js\jquery.min.js
@@ -65,4 +66,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\theme-pink.css
